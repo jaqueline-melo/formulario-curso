@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.form-login {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid;
+    width: 100px;
+    height: 200px;
+    padding: 50px;
+}
+
+fieldset .user{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px 60px;
+}
+
+fieldset .password{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px 60px;
+}
+
+.form-login legend {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+}
