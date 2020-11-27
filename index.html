@@ -10,21 +10,40 @@
 </head>
 
 <body>
-    <form class="form-login" action="#">
+    <form class="form-cadastro" action="#">
         <fieldset>
-        <legend>login</legend>
-        <div class="user">
-            <label for="user">Email:</label>
-            <input type="email" id="user" name="user" required autofocus>
-        </div>
-        <div class="password">
-            <label for="password">Senha:</label>
-            <input type="password" id="password" required>
-        </div>
-        <div class="submit">
-            <input type="submit" value="Enviar">
-        </div>
-    </fieldset>
+            <legend>Dados pessoais</legend>
+            <div class="name">
+                <label for="name">Nome:</label>
+                <input type="name" id="name" required autofocus>
+            </div>
+            <div class="email">
+                <label for="password">E-mail:</label>
+                <input type="text" id="name" required autofocus>
+            </div>
+
+            <div class="numero-filhos">
+                <label for="numero">Número de filhos:</label>
+                <input type="number" id="number" min="0" max="150" required autofocus>
+            </div>
+            <div class="nascimento">
+                <label for="password">Nascimento:</label>
+                <input type="date" name="number" min="2020/23/11" max="2021/31/12" required autofocus>
+            </div>
+            <div class="genero">
+                <label for="sexo">Sexo:</label>
+                <label for="masculino">M:</label>
+                <input type="radio" id="masculino" name="genero" value="M">
+                <label for="feminino">F:</label>
+                <input type="radio" id="feminino" name="genero" value="F">
+            </div>
+            <div class="submit">
+                <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+      
+  
+      
     </form>
 </body>
 

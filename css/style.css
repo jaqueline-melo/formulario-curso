@@ -7,36 +7,64 @@ body {
     height: 100vh;
     padding: 50px;
     box-sizing: border-box;
+    padding: 15px 60px;
 }
 
-.form-login {
+.form-cadatro {
     width: 500px;
     height: 200px;
-    padding: 20px;
+    padding: 20px;  
 }
 
 fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border: 2px solid;
     width: 100px;
-    height: 200px;
+    height: 400px;
     padding: 50px;
 }
 
-fieldset .user{
+fieldset .name{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 15px 60px;
+    align-items: center;
 }
+    
 
-fieldset .password{
+fieldset .email{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 15px 60px;
+    align-items: center;
+    padding: 15px;
+}
+fieldset .numero-filhos{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+}
+fieldset .nascimento{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+fieldset .genero{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
 }
 
-.form-login legend {
+
+.form-cadastro legend {
     text-align: center;
     text-transform: capitalize;
     font-size: 30px;
@@ -44,18 +72,50 @@ fieldset .password{
     padding: 10px;
 }
 
-.user {
+/* .name {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 250px;
-}
+    align-items: center;
+    text-align: center; */
+    
+/* } */
 
-.password {
+/* .email {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction:row;
+     align-items: center;
     width: 250px;
+    text-align: center;
+   
+} */
+
+/* .numero-filhos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 250px;
+    padding: 15px 60px;
+  
+} */
+
+/* .nascimento{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 250px;
+    padding: 15px 60px;
+} */
+/* .genero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.genero input{
+    margin-top:0px;
 }
 
 .submit {
