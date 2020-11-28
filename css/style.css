@@ -33,6 +33,14 @@ fieldset .name{
     align-items: center;
 }
 
+fieldset .email{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 10px;
+}
+
 fieldset .numero-filhos{
     display: flex;
     flex-direction: row;
@@ -73,3 +81,5 @@ fieldset .genero{
     flex-direction: row;
     padding: 15px;
 }
+
+
